@@ -20,7 +20,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center space-y-6 animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
               Find Your Perfect
-              <span className="block text-primary">Startup Match</span>
+              <span className="block text-primary">Funding Finder</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               Connect with startups that align with your investment goals, sector preferences, and growth objectives. 
@@ -45,7 +45,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose StartupMatch?
+              Why Choose Funding Finder?
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Our platform streamlines the startup discovery process with advanced matching algorithms
