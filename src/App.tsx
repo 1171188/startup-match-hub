@@ -7,6 +7,10 @@ import Index from "./pages/Index";
 import Results from "./pages/Results";
 import StartupDetail from "./pages/StartupDetail";
 import InvestorTypes from "./pages/InvestorTypes";
+import TRLPhase from "./pages/TRLPhase";
+import WhatAreSubsidies from "./pages/WhatAreSubsidies";
+import SubsidieFinder from "./pages/SubsidieFinder";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +26,10 @@ const App = () => (
           <Route path="/results" element={<Results />} />
           <Route path="/startup/:id" element={<StartupDetail />} />
           <Route path="/soorten-investeerders" element={<InvestorTypes />} />
+          <Route path="/mijn-trl-fase" element={<TRLPhase />} />
+          <Route path="/wat-zijn-subsidies" element={<WhatAreSubsidies />} />
+          <Route path="/subsidie-finder" element={<SubsidieFinder />} />
+          <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

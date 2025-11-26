@@ -3,7 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useParams, Link } from "react-router-dom";
-import { ArrowLeft, MapPin, Users, TrendingUp, Calendar, Globe, Mail, Phone, Target, DollarSign } from "lucide-react";
+import { ArrowLeft, MapPin, Users, TrendingUp, Calendar, Globe, Target, DollarSign } from "lucide-react";
+import { useState } from "react";
+import { ContactDetailsDialog } from "@/components/ContactDetailsDialog";
 
 // Mock data - in a real app this would come from an API
 const mockStartupData: Record<string, any> = {
@@ -47,6 +49,18 @@ Founded in 2019, we've grown from a small team of AI researchers to a thriving c
 const StartupDetail = () => {
   const { id } = useParams();
   const startup = mockStartupData[id || "1"] || mockStartupData["1"];
+  const [showFullDetails, setShowFullDetails] = useState(false);
+  const [contactDialogOpen, setContactDialogOpen] = useState(false);
+
+  const handleContactClick = () => {
+    setContactDialogOpen(true);
+  };
+
+  const handleContactSubmit = (details: { name: string; email: string; phone: string }) => {
+    console.log("Contact details submitted:", details);
+    setShowFullDetails(true);
+    setContactDialogOpen(false);
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -79,11 +93,8 @@ const StartupDetail = () => {
             </div>
             
             <div className="flex flex-col gap-2">
-              <Button variant="accent" size="lg">
-                Request Meeting
-              </Button>
-              <Button variant="outline">
-                Download Pitch Deck
+              <Button variant="accent" size="lg" onClick={handleContactClick}>
+                Kom in contact
               </Button>
             </div>
           </div>
@@ -97,101 +108,116 @@ const StartupDetail = () => {
             {/* About */}
             <Card className="animate-scale-in">
               <CardHeader>
-                <CardTitle>About {startup.name}</CardTitle>
+                <CardTitle>Over {startup.name}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground whitespace-pre-line leading-relaxed">
-                  {startup.fullDescription}
-                </p>
+                {showFullDetails ? (
+                  <p className="text-muted-foreground whitespace-pre-line leading-relaxed">
+                    {startup.fullDescription}
+                  </p>
+                ) : (
+                  <div className="space-y-4">
+                    <p className="text-muted-foreground">
+                      {startup.description}
+                    </p>
+                    <p className="text-sm text-muted-foreground italic">
+                      Voor meer informatie, klik op "Kom in contact" om je gegevens te delen.
+                    </p>
+                  </div>
+                )}
               </CardContent>
             </Card>
 
-            {/* Key Metrics */}
-            <Card className="animate-scale-in" style={{ animationDelay: "100ms" }}>
-              <CardHeader>
-                <CardTitle>Key Metrics</CardTitle>
-              </CardHeader>
-              <CardContent>
+            {showFullDetails && (
+              <>
+                {/* Key Metrics */}
+                <Card className="animate-scale-in" style={{ animationDelay: "100ms" }}>
+                  <CardHeader>
+                    <CardTitle>Belangrijke Statistieken</CardTitle>
+                  </CardHeader>
+                  <CardContent>
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="p-4 bg-secondary/50 rounded-lg">
-                    <div className="flex items-center text-muted-foreground mb-2">
-                      <Users className="w-4 h-4 mr-2" />
-                      <span className="text-sm">Team Size</span>
+                    <div className="p-4 bg-secondary/50 rounded-lg">
+                      <div className="flex items-center text-muted-foreground mb-2">
+                        <Users className="w-4 h-4 mr-2" />
+                        <span className="text-sm">Team Grootte</span>
+                      </div>
+                      <p className="text-2xl font-bold text-foreground">{startup.metrics.employees}</p>
                     </div>
-                    <p className="text-2xl font-bold text-foreground">{startup.metrics.employees}</p>
-                  </div>
-                  <div className="p-4 bg-secondary/50 rounded-lg">
-                    <div className="flex items-center text-muted-foreground mb-2">
-                      <TrendingUp className="w-4 h-4 mr-2" />
-                      <span className="text-sm">Growth Rate</span>
+                    <div className="p-4 bg-secondary/50 rounded-lg">
+                      <div className="flex items-center text-muted-foreground mb-2">
+                        <TrendingUp className="w-4 h-4 mr-2" />
+                        <span className="text-sm">Groeipercentage</span>
+                      </div>
+                      <p className="text-2xl font-bold text-primary">{startup.metrics.growth}</p>
                     </div>
-                    <p className="text-2xl font-bold text-primary">{startup.metrics.growth}</p>
-                  </div>
-                  <div className="p-4 bg-secondary/50 rounded-lg">
-                    <div className="flex items-center text-muted-foreground mb-2">
-                      <DollarSign className="w-4 h-4 mr-2" />
-                      <span className="text-sm">Annual Revenue</span>
+                    <div className="p-4 bg-secondary/50 rounded-lg">
+                      <div className="flex items-center text-muted-foreground mb-2">
+                        <DollarSign className="w-4 h-4 mr-2" />
+                        <span className="text-sm">Jaarlijkse Omzet</span>
+                      </div>
+                      <p className="text-2xl font-bold text-foreground">{startup.metrics.revenue}</p>
                     </div>
-                    <p className="text-2xl font-bold text-foreground">{startup.metrics.revenue}</p>
-                  </div>
-                  <div className="p-4 bg-secondary/50 rounded-lg">
-                    <div className="flex items-center text-muted-foreground mb-2">
-                      <Target className="w-4 h-4 mr-2" />
-                      <span className="text-sm">Customers</span>
+                    <div className="p-4 bg-secondary/50 rounded-lg">
+                      <div className="flex items-center text-muted-foreground mb-2">
+                        <Target className="w-4 h-4 mr-2" />
+                        <span className="text-sm">Klanten</span>
+                      </div>
+                      <p className="text-2xl font-bold text-foreground">{startup.metrics.customers}</p>
                     </div>
-                    <p className="text-2xl font-bold text-foreground">{startup.metrics.customers}</p>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
 
-            {/* Growth Objectives */}
-            <Card className="animate-scale-in" style={{ animationDelay: "200ms" }}>
-              <CardHeader>
-                <CardTitle>Growth Plans & Objectives</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
-                  {startup.goals.map((goal: string, index: number) => (
-                    <li key={index} className="flex items-start">
-                      <div className="w-2 h-2 rounded-full bg-primary mt-2 mr-3 flex-shrink-0" />
-                      <span className="text-muted-foreground">{goal}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
+              {/* Growth Objectives */}
+              <Card className="animate-scale-in" style={{ animationDelay: "200ms" }}>
+                <CardHeader>
+                  <CardTitle>Groeiplannen & Doelstellingen</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3">
+                    {startup.goals.map((goal: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <div className="w-2 h-2 rounded-full bg-primary mt-2 mr-3 flex-shrink-0" />
+                        <span className="text-muted-foreground">{goal}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
 
-            {/* Key Highlights */}
-            <Card className="animate-scale-in" style={{ animationDelay: "300ms" }}>
-              <CardHeader>
-                <CardTitle>Key Highlights</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-3">
-                  {startup.highlights.map((highlight: string, index: number) => (
-                    <li key={index} className="flex items-start">
-                      <div className="w-2 h-2 rounded-full bg-accent mt-2 mr-3 flex-shrink-0" />
-                      <span className="text-muted-foreground">{highlight}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
+              {/* Key Highlights */}
+              <Card className="animate-scale-in" style={{ animationDelay: "300ms" }}>
+                <CardHeader>
+                  <CardTitle>Belangrijkste Hoogtepunten</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3">
+                    {startup.highlights.map((highlight: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <div className="w-2 h-2 rounded-full bg-accent mt-2 mr-3 flex-shrink-0" />
+                        <span className="text-muted-foreground">{highlight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            </>
+            )}
           </div>
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Contact Information */}
+            {/* Basic Information */}
             <Card className="animate-scale-in sticky top-20">
               <CardHeader>
-                <CardTitle>Contact Information</CardTitle>
+                <CardTitle>Basis Informatie</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-start">
                   <Calendar className="w-5 h-5 mr-3 mt-0.5 text-muted-foreground flex-shrink-0" />
                   <div>
-                    <p className="text-sm text-muted-foreground">Founded</p>
+                    <p className="text-sm text-muted-foreground">Opgericht</p>
                     <p className="font-medium text-foreground">{startup.founded}</p>
                   </div>
                 </div>
@@ -204,29 +230,19 @@ const StartupDetail = () => {
                     </a>
                   </div>
                 </div>
-                <div className="flex items-start">
-                  <Mail className="w-5 h-5 mr-3 mt-0.5 text-muted-foreground flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-muted-foreground">Email</p>
-                    <a href={`mailto:${startup.email}`} className="font-medium text-primary hover:underline">
-                      {startup.email}
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <Phone className="w-5 h-5 mr-3 mt-0.5 text-muted-foreground flex-shrink-0" />
-                  <div>
-                    <p className="text-sm text-muted-foreground">Phone</p>
-                    <a href={`tel:${startup.phone}`} className="font-medium text-primary hover:underline">
-                      {startup.phone}
-                    </a>
-                  </div>
-                </div>
               </CardContent>
             </Card>
           </div>
         </div>
       </div>
+
+      <ContactDetailsDialog
+        open={contactDialogOpen}
+        onOpenChange={setContactDialogOpen}
+        onSubmit={handleContactSubmit}
+        title="Kom in contact"
+        description="Vul je gegevens in om de volledige details te bekijken en in contact te komen."
+      />
     </div>
   );
 };

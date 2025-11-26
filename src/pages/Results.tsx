@@ -4,6 +4,8 @@ import { AdviceReportPanel } from "@/components/AdviceReportPanel";
 import { useLocation } from "react-router-dom";
 import { Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { ContactDetailsDialog } from "@/components/ContactDetailsDialog";
 
 // Mock data - in a real app this would come from an API
 const mockStartups = [
@@ -97,6 +99,20 @@ const Results = () => {
   const location = useLocation();
   const searchCriteria = location.state || {};
   const showAdviceReport = searchCriteria.showAdviceReport || false;
+  const [showAll, setShowAll] = useState(false);
+  const [contactDialogOpen, setContactDialogOpen] = useState(false);
+
+  const displayedStartups = showAll ? mockStartups : mockStartups.slice(0, 3);
+
+  const handleShowMore = () => {
+    setContactDialogOpen(true);
+  };
+
+  const handleContactSubmit = (details: { name: string; email: string; phone: string }) => {
+    console.log("Contact details submitted:", details);
+    setShowAll(true);
+    setContactDialogOpen(false);
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -152,15 +168,17 @@ const Results = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left Column - Startup Cards */}
           <div className="lg:col-span-2">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {mockStartups.map((startup, index) => (
-                <div
-                  key={startup.id}
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <StartupCard {...startup} />
-                </div>
+            <div className="space-y-6">
+              {displayedStartups.map((startup, index) => (
+                <StartupCard key={index} {...startup} />
               ))}
+              {!showAll && mockStartups.length > 3 && (
+                <div className="flex justify-center pt-4">
+                  <Button onClick={handleShowMore} variant="accent" size="lg">
+                    Laat meer zien ({mockStartups.length - 3} meer)
+                  </Button>
+                </div>
+              )}
             </div>
           </div>
 
@@ -170,6 +188,14 @@ const Results = () => {
           </div>
         </div>
       </div>
+
+      <ContactDetailsDialog
+        open={contactDialogOpen}
+        onOpenChange={setContactDialogOpen}
+        onSubmit={handleContactSubmit}
+        title="Contactgegevens vereist"
+        description="Vul je gegevens in om meer matches te zien."
+      />
     </div>
   );
 };
