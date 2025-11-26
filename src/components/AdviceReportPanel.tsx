@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Loader2, FileText, Sparkles } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { ContactDetailsDialog } from "./ContactDetailsDialog";
 
 interface AdviceReportPanelProps {
   searchCriteria: {
@@ -17,6 +18,23 @@ interface AdviceReportPanelProps {
 export const AdviceReportPanel = ({ searchCriteria }: AdviceReportPanelProps) => {
   const [isGenerating, setIsGenerating] = useState(false);
   const [report, setReport] = useState<string>("");
+  const [contactDialogOpen, setContactDialogOpen] = useState(false);
+  const [hasSubmittedContact, setHasSubmittedContact] = useState(false);
+
+  const handleGenerateClick = () => {
+    if (!hasSubmittedContact) {
+      setContactDialogOpen(true);
+    } else {
+      generateReport();
+    }
+  };
+
+  const handleContactSubmit = (details: { name: string; email: string; phone: string }) => {
+    console.log("Contact details submitted:", details);
+    setHasSubmittedContact(true);
+    setContactDialogOpen(false);
+    generateReport();
+  };
 
   const generateReport = async () => {
     setIsGenerating(true);
@@ -79,7 +97,7 @@ export const AdviceReportPanel = ({ searchCriteria }: AdviceReportPanelProps) =>
         )}
 
         <Button 
-          onClick={generateReport} 
+          onClick={handleGenerateClick} 
           disabled={isGenerating}
           className="w-full"
           variant="accent"
@@ -109,6 +127,14 @@ export const AdviceReportPanel = ({ searchCriteria }: AdviceReportPanelProps) =>
           </div>
         )}
       </CardContent>
+
+      <ContactDetailsDialog
+        open={contactDialogOpen}
+        onOpenChange={setContactDialogOpen}
+        onSubmit={handleContactSubmit}
+        title="Contactgegevens vereist"
+        description="Vul je gegevens in om je advies rapport te genereren."
+      />
     </Card>
   );
 };

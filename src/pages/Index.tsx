@@ -19,12 +19,12 @@ const Index = () => {
         <div className="container relative mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
           <div className="max-w-3xl mx-auto text-center space-y-6 animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-              Find Your Perfect
-              <span className="block text-primary">Funding Finder</span>
+              Vind Jouw Perfecte
+              <span className="block text-primary">Funding Match</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Connect with startups that align with your investment goals, sector preferences, and growth objectives. 
-              Discover opportunities tailored to your criteria.
+              Verbind met investeerders die passen bij jouw groeifase, sector en investeringsdoelen. 
+              Ontdek kansen op maat voor jouw startup.
             </p>
           </div>
 
@@ -32,7 +32,7 @@ const Index = () => {
           <div className="mt-12 md:mt-16">
             <div className="bg-card rounded-2xl p-6 md:p-8 shadow-lg border border-border">
               <h2 className="text-2xl font-semibold text-center mb-6 text-foreground">
-                Enter Your Criteria
+                Vul Je Criteria In
               </h2>
               <SearchForm />
             </div>
@@ -45,10 +45,10 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose Funding Finder?
+              Waarom Kiezen Voor Funding Finder?
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Our platform streamlines the startup discovery process with advanced matching algorithms
+              Ons platform stroomlijnt het ontdekkingsproces met geavanceerde match-algoritmes
             </p>
           </div>
 
@@ -57,9 +57,9 @@ const Index = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
                 <Target className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground">Precise Matching</h3>
+              <h3 className="text-xl font-semibold text-foreground">Precieze Matching</h3>
               <p className="text-muted-foreground">
-                Advanced algorithms match you with startups that meet your exact criteria and investment goals
+                Geavanceerde algoritmes matchen jou met investeerders die perfect passen bij jouw criteria
               </p>
             </div>
 
@@ -67,9 +67,9 @@ const Index = () => {
               <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto">
                 <TrendingUp className="w-8 h-8 text-accent" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground">Growth Insights</h3>
+              <h3 className="text-xl font-semibold text-foreground">Groei Inzichten</h3>
               <p className="text-muted-foreground">
-                Access detailed growth metrics, funding history, and future projections for informed decisions
+                Toegang tot gedetailleerde groeimetrics en toekomstprojecties voor weloverwogen beslissingen
               </p>
             </div>
 
@@ -77,10 +77,36 @@ const Index = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
                 <Zap className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground">Fast Connections</h3>
+              <h3 className="text-xl font-semibold text-foreground">Snelle Connecties</h3>
               <p className="text-muted-foreground">
-                Connect directly with founders and decision-makers to accelerate your investment process
+                Kom direct in contact met investeerders om jouw funding proces te versnellen
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="py-20 bg-secondary/20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="text-center p-8 bg-card rounded-2xl border border-border">
+                <div className="text-5xl md:text-6xl font-bold text-primary mb-2">
+                  2K+
+                </div>
+                <p className="text-xl text-muted-foreground">
+                  Succesvolle Matches
+                </p>
+              </div>
+              <div className="text-center p-8 bg-card rounded-2xl border border-border">
+                <div className="text-5xl md:text-6xl font-bold text-accent mb-2">
+                  10K+
+                </div>
+                <p className="text-xl text-muted-foreground">
+                  Financieringsmogelijkheden
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -91,10 +117,10 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center space-y-6 bg-gradient-hero rounded-2xl p-12 text-white">
             <h2 className="text-3xl md:text-4xl font-bold">
-              Ready to Discover Your Next Investment?
+              Klaar Om Jouw Perfecte Match Te Vinden?
             </h2>
             <p className="text-lg opacity-90">
-              Join hundreds of investors finding their perfect startup matches
+              Sluit je aan bij honderden startups die hun ideale investeerder vonden
             </p>
           </div>
         </div>
