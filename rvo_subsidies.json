@@ -1,0 +1,566 @@
+[
+  {
+    "subsidie":"Agrarisch Natuur- en Landschapsbeheer (ANLb)",
+    "soort":"Jaarlijkse subsidie voor agrarische collectieven, die landbouwareaal (landbouwgrond en landschapselementen) willen gebruiken voor agrarisch natuur- en landschapsbeheer.",
+    "bijzonderheden":"Aanvraagperiode verschilt per provincie.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/anlb"
+  },
+  {
+    "subsidie":"Besluit bijstandverlening zelfstandigen (Bbz)",
+    "soort":"Gemeentelijke kredietregeling voor zelfstandige ondernemers -  zoals agrarische - met financiële problemen.",
+    "bijzonderheden":"U kunt doorlopend aanvragen.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/besluit-bijstandverlening-zelfstandigen-bbz"
+  },
+  {
+    "subsidie":"Bijdrage kosten rampenbestrijding en bijstandsverlening",
+    "soort":"Financiële bijdrage voor gemeenten, veiligheidsregio's, provincies en (hulp)organisaties voor hun optreden bij een ramp of incident.",
+    "bijzonderheden":"Aanvragen tot 12 maanden na einde bijstandsverlening of rampenbestrijding.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/bijdrage-kosten-rampenbestrijding"
+  },
+  {
+    "subsidie":"BMKB-Groen",
+    "soort":"Borgstelling voor mkb inclusief starters, om een lening te verkrijgen voor groene investeringen. Ook voor investeerders die het mkb willen ondersteunen.",
+    "bijzonderheden":"Aanvragen tot 1 juli 2027. Bedrijven vragen niet zelf aan. Dit gaat via financiers.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/bmkb\/bmkb-groen"
+  },
+  {
+    "subsidie":"Borgstelling MKB-kredieten (BMKB)",
+    "soort":"Borgstelling voor mkb inclusief starters, om een lening te verkrijgen voor investeringen. Ook voor investeerders die het mkb willen ondersteunen.",
+    "bijzonderheden":"Aanvragen tot 1 juli 2027. Bedrijven vragen niet zelf aan. Dit gaat via financiers.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/bmkb"
+  },
+  {
+    "subsidie":"Borgstellingskrediet voor de Landbouw (BL)",
+    "soort":"Borgstelling voor agrarische ondernemers om een lening bij een bank te verkrijgen. De omzet komt voor het grootste deel uit de primaire landbouw.",
+    "bijzonderheden":"Doorlopend aanvragen. Agrarische ondernemers vragen niet zelf aan. Dit gaat via financiers.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/bl"
+  },
+  {
+    "subsidie":"CEF Transport - Alternative Fuels Infrastructure Facility (AFIF)",
+    "soort":"Subsidie voor ondernemers, overheden en partnerschappen die bijdragen aan een duurzaam en efficiënt Europees transportnetwerk. Voor ondersteuning van de infrastructuur voor alternatieve brandstoffen.",
+    "bijzonderheden":"Aanvragen vanaf 29 februari 2024 tot en met 17 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/cef-transport\/afif"
+  },
+  {
+    "subsidie":"Citizens, Equality, Rights and Values-programma (CERV)",
+    "soort":"Europees programma dat financiering biedt aan projecten van maatschappelijke organisaties en overheden gericht op het bevorderen van Europese rechten en waarden.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/cerv"
+  },
+  {
+    "subsidie":"Compensatieregeling eHerkenning Belastingdienst",
+    "soort":"Compensatie voor ondernemers die gebruikmaken van het Belastingdienst EH3-inlogmiddel.",
+    "bijzonderheden":"Aanvragen vanaf 1 oktober 2025 tot en met 30 september 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/compensatie-eherkenning"
+  },
+  {
+    "subsidie":"Connecting Europe Facility (CEF) Transport",
+    "soort":"Subsidie voor ondernemers, overheden en partnerschappen die bijdragen aan een duurzaam en efficiënt Europees transportnetwerk.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/cef-transport"
+  },
+  {
+    "subsidie":"COSME: Concurrentievermogen voor het mkb",
+    "soort":"Europese subsidie voor semipublieke organisaties om het concurrentievermogen van (internationale) mkb'ers te verbeteren.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/cosme"
+  },
+  {
+    "subsidie":"COST: Europese samenwerking in wetenschap en techniek",
+    "soort":"Europees samenwerkingsprogramma voor kennisinstellingen voor internationale coördinatie van onderzoek.",
+    "bijzonderheden":"U kunt doorlopend aanvragen.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/cost"
+  },
+  {
+    "subsidie":"Cybersecurity Innovation Fund (CIF-NL)",
+    "soort":"Subsidie voor in Nederland gevestigde ondernemingen of onderzoeksorganisaties die met hun projecten bijdragen aan de (door)ontwikkeling van cybersecurity-oplossingen.",
+    "bijzonderheden":"Aanvragen vanaf december 2025 (onder voorbehoud)",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/cif-nl"
+  },
+  {
+    "subsidie":"Digital Europe Programme",
+    "soort":"Subsidieprogramma voor kennisinstellingen, mkb en grote bedrijven of overheidsorganisaties die bezig zijn met een baanbrekend innovatieproject op het gebied van cloud, data, AI, cybersecurity of digitale vaardigheden.",
+    "bijzonderheden":"De periode van indienen verschilt per Europese call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/digital-europe-programme\/digital-europe"
+  },
+  {
+    "subsidie":"Energie-investeringsaftrek (EIA) voor ondernemers",
+    "soort":"Belastingvoordeel voor ondernemers die investeren in energiezuinige technieken en duurzame energie.",
+    "bijzonderheden":"Indientermijn verschilt per kostensoort.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/eia\/ondernemers"
+  },
+  {
+    "subsidie":"EU4Health programma",
+    "soort":"Europees programma om de gezondheidszorg en crisisparaatheid in de Europese Unie (EU) te versterken.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/eu4health-programma"
+  },
+  {
+    "subsidie":"Eureka-cluster ITEA voor innovatie in software en systemen",
+    "soort":"Europees samenwerkingsprogramma voor bedrijven, kennisinstellingen en universiteiten die onderzoek doen naar de ontwikkeling van software-intensieve systemen en diensten.",
+    "bijzonderheden":"Internationale aanvraag: 16 september 2025 tot en met 12 februari 2026. Nationale aanvraag: 1 april tot en met 17 april 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/eureka\/netwerken-en-programmas\/itea"
+  },
+  {
+    "subsidie":"Eureka-cluster Xecs voor micro- en nano-elektronica",
+    "soort":"Samenwerkingsprogramma voor Europese bedrijven en kennisinstellingen op gebied van onderzoek en ontwikkeling van micro- en nano-elektronica.",
+    "bijzonderheden":"Internationale aanvraag: 1 juni 2025 tot en met 16 april 2026. Nationale aanvraag: 1 april tot en met 17 april 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/eureka\/netwerken-en-programmas\/xecs"
+  },
+  {
+    "subsidie":"Eureka: Celtic-Next",
+    "soort":"Samenwerkingsprogramma voor Europese ondernemers en kennisinstellingen voor marktgerichte R&D in de telecommunicatie-industrie.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/eureka\/netwerken-en-programmas\/celtic-next"
+  },
+  {
+    "subsidie":"Eureka: programma internationale marktgerichte R&D",
+    "soort":"Financiering voor bedrijven en organisaties die met marktgerichte R&D bijdragen aan economische groei en aan strategische en maatschappelijke oplossingen.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/eureka"
+  },
+  {
+    "subsidie":"EuroHPC Joint Undertaking (EuroHPC JU)",
+    "soort":"Publiek-privaat partnerschap gericht op het versterken van de Europese positie op het gebied van supercomputers.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/eurohpc-ju"
+  },
+  {
+    "subsidie":"Garantie Ondernemingsfinanciering (GO)",
+    "soort":"Garantstelling voor (middel)grote ondernemingen die krediet nodig hebben. De GO geeft banken een 50% staatsgarantie op middelgrote en grote leningen.",
+    "bijzonderheden":"Aanvragen vanaf 1 juli 2025 tot en met 15 juni 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/go"
+  },
+  {
+    "subsidie":"Horizon Europe - Cluster 1 Health",
+    "soort":"Europees subsidieprogramma voor onderzoeks- en onderwijsinstellingen, industrie en NGO's die werken aan een gezonde samenleving en innovatieve, duurzame en hoogwaardige zorgstelsels.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/cluster-1"
+  },
+  {
+    "subsidie":"Horizon Europe - Cluster 2 Culture, creativity and inclusive society",
+    "soort":"Europees subsidieprogramma voor onderzoeks- en onderwijsinstellingen, industrie en NGO's die werken aan het oplossen van belangrijke sociale, politieke, economische en culturele uitdagingen van Europese burgers.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/cluster-2"
+  },
+  {
+    "subsidie":"Horizon Europe - Cluster 3 Civil security for society",
+    "soort":"Europees subsidieprogramma voor onderzoeks- en onderwijsinstellingen, industrie en NGO's die werken aan innovatieve oplossingen voor het bevorderen en beschermen van de positie van de Europese civiele veiligheidsindustrie.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/cluster-3"
+  },
+  {
+    "subsidie":"Horizon Europe - Cluster 4 Digital, industry and space",
+    "soort":"Europees subsidieprogramma voor onderzoeks- en onderwijsinstellingen, industrie en NGO's die werken aan het vergroten van de Europese capaciteit in zowel het digitale, industriële als ruimtevaartdomein.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/cluster-4"
+  },
+  {
+    "subsidie":"Horizon Europe - Cluster 5 Climate, Energy, and Mobility",
+    "soort":"Europees subsidieprogramma voor onderzoeks- en onderwijsinstellingen, industrie en NGO's die werken aan een klimaatneutraal Europa in 2050.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/cluster-5"
+  },
+  {
+    "subsidie":"Horizon Europe - Cluster 6 Food, bio-economy, natural resources, agriculture and environment",
+    "soort":"Europees subsidieprogramma voor onderzoeks- en onderwijsinstellingen, industrie en NGO's die werken aan onderzoek en innovatieve oplossingen die onze bodem, lucht, wateren, biodiversiteit en andere natuurlijke hulpbronnen minder aantasten.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/cluster-6"
+  },
+  {
+    "subsidie":"Horizon Europe - European Innovation Council (EIC)",
+    "soort":"Europees programma voor onderzoekers, ondernemers en kleine bedrijven met een baanbrekende technologie die de ambitie en potentie hebben om internationaal op te schalen.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/eic"
+  },
+  {
+    "subsidie":"Horizon Europe - European Research Council (ERC)",
+    "soort":"Europees programma voor ondersteuning van wetenschappers met een persoonlijke beurs voor fundamenteel onderzoek.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/erc"
+  },
+  {
+    "subsidie":"Horizon Europe - Marie Skłodowska-Curie Actions (MSCA)",
+    "soort":"Europees subsidieprogramma voor de ontwikkeling van onderzoeksvaardigheden en carrièreondersteuning van onderzoekers, ter bevordering van hun internationale mobiliteit.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/msca"
+  },
+  {
+    "subsidie":"Horizon Europe - Onderzoeksinfrastructuren (RI's)",
+    "soort":"Europees subsidieprogramma voor wetenschappers en wetenschappelijke organisaties om de kwaliteit en toegankelijkheid van onderzoeksinfrastructuren te versterken.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/onderzoeksinfrastructuren"
+  },
+  {
+    "subsidie":"Horizon Europe - Widening participation and strengthening the European Research Area (WPSE & ERA)",
+    "soort":"Financiering van de Europese Commissie voor internationale consortia van partners uit Europese landen om de deelname van alle Europese landen te verbeteren en de Europese onderzoeksruimte te versterken.",
+    "bijzonderheden":"Periode van indienen verschilt per oproep.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/wpse-era"
+  },
+  {
+    "subsidie":"Horizon Europe Partnership (HEP)",
+    "soort":"Subsidie voor Europese samenwerking in onderzoek- en innovatieprojecten. U moet een verplichte succesvolle vooraanmelding indienen bij een Horizon Europe Partnership (HEP) voordat u nationaal subsidie kunt aanvragen.",
+    "bijzonderheden":"Aanvragen vanaf 9 januari tot en met 13 maart 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/hep"
+  },
+  {
+    "subsidie":"Huisvesting Grote Gezinnen Vergunninghouders (HGGV)",
+    "soort":"Uitkering voor gemeenten die helpt om panden sneller geschikt te maken voor bewoning door grote gezinnen van vergunninghouders (6 of meer personen). Dit kan door bijvoorbeeld ombouw of aanpassing van het pand.",
+    "bijzonderheden":"Aanvragen vanaf 3 juni 2024 tot en met 15 oktober 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/huisvesting-grote-gezinnen-vergunninghouders-hggv"
+  },
+  {
+    "subsidie":"Innovatiekrediet",
+    "soort":"Krediet voor bedrijven en startende ondernemers om veelbelovende innovaties verder te ontwikkelen. Er is budget voor technische en klinische ontwikkelingsprojecten.",
+    "bijzonderheden":"Aanvragen vanaf 1 januari 2025 tot en met 31 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/innovatiekrediet"
+  },
+  {
+    "subsidie":"Innowwide",
+    "soort":"Subsidie voor innovatieve mkb'ers om te onderzoeken of internationale markten rijp zijn voor hun producten, diensten en R&D.",
+    "bijzonderheden":"Aanvragen voor de 4e call vanaf 25 september tot en met 25 november 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/innowwide"
+  },
+  {
+    "subsidie":"Investeringssubsidie duurzame energie en energiebesparing voor zakelijke gebruikers (ISDE)",
+    "soort":"Subsidie voor bedrijven, overheden, verenigingen en andere zakelijke gebruikers, voor de aanschaf van een (hybride) warmtepomp of een zonneboiler.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030. Voor bedrijven is er tot en met 31 december 2027 ook subsidie voor kleinschalige windturbines.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/zakelijke-gebruikers"
+  },
+  {
+    "subsidie":"ISDE: Aansluiting op een warmtenet woningeigenaren",
+    "soort":"Subsidie voor woningeigenaren voor een individuele aansluiting op een warmtenet.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/woningeigenaren\/aansluiting-warmtenet"
+  },
+  {
+    "subsidie":"ISDE: Elektrische kookvoorziening woningeigenaren",
+    "soort":"Subsidie voor woningeigenaren voor een elektrische kookvoorziening.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/woningeigenaren\/elektrische-kookvoorziening"
+  },
+  {
+    "subsidie":"ISDE: Isolatiemaatregelen woningeigenaren",
+    "soort":"Subsidie voor woningeigenaren voor 5 typen isolatiemaatregelen.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/woningeigenaren\/isolatiemaatregelen"
+  },
+  {
+    "subsidie":"ISDE: Kleinschalige windturbine zakelijke gebruikers",
+    "soort":"Subsidie voor de aanschaf van kleinschalige windturbines.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/zakelijke-gebruikers\/kleinschalige-windturbine"
+  },
+  {
+    "subsidie":"ISDE: Subsidie voor verduurzaming van uw woning",
+    "soort":"Subsidie voor woningeigenaren voor de aanschaf van een (hybride) warmtepomp, zonneboiler, een aansluiting op een warmtenet, elektrische kookvoorziening en (glas)isolatiemaatregelen.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/woningeigenaren"
+  },
+  {
+    "subsidie":"ISDE: voor monumenteigenaren",
+    "soort":"Subsidie voor monumenteigenaren voor het verduurzamen van monumenten.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/woningeigenaren\/isde-voor-monumenteigenaren"
+  },
+  {
+    "subsidie":"ISDE: Warmtepomp woningeigenaren",
+    "soort":"Subsidie voor woningeigenaren voor een (hybride) warmtepomp.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/woningeigenaren\/warmtepomp"
+  },
+  {
+    "subsidie":"ISDE: Warmtepomp zakelijke gebruikers",
+    "soort":"Subsidie voor de aanschaf een (hybride) warmtepomp.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/zakelijke-gebruikers\/warmtepomp"
+  },
+  {
+    "subsidie":"ISDE: Zonneboiler woningeigenaren",
+    "soort":"Subsidie voor woningeigenaren voor een zonneboiler.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/woningeigenaren\/zonneboiler"
+  },
+  {
+    "subsidie":"ISDE: Zonneboiler zakelijke gebruikers",
+    "soort":"Subsidie voor zakelijke gebruikers die hun gebouw of te verhuren woning willen verduurzamen met een zonneboiler.",
+    "bijzonderheden":"Aanvragen tot en met 31 december 2030.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/isde\/zakelijke-gebruikers\/zonneboiler"
+  },
+  {
+    "subsidie":"Landelijke verplaatsingsregeling veehouderijen met piekbelasting (Lvvp): bedrijfsverplaatsing",
+    "soort":"Subsidie voor veehouderijen die onder de aanpak piekbelasting vallen. En die hun bedrijf vrijwillig willen verplaatsen naar een gebied waar meer ruimte is voor landbouw.",
+    "bijzonderheden":"Aanvragen vanaf 6 januari 2025 tot en met 30 november 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/lvvp-bedrijfsverplaatsing"
+  },
+  {
+    "subsidie":"LEADER Uitvoering Projecten Flevoland",
+    "soort":"Subsidie voor initiatiefnemers van nieuwe projecten die plaatsvinden in een LEADER-gebied in Flevoland. Projecten dragen bij aan de doelen van de lokale ontwikkelingsstrategie (LOS).",
+    "bijzonderheden":"Aanvragen vanaf 2 april 2024 tot en met 17 december 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/leader-uitvoering-projecten-flevoland"
+  },
+  {
+    "subsidie":"LEADER Uitvoering Projecten Noord-Holland",
+    "soort":"Subsidie voor initiatiefnemers van nieuwe projecten die plaatsvinden in een LEADER-gebied in Noord-Holland. Projecten dragen bij aan de doelen van de lokale ontwikkelingsstrategie (LOS).",
+    "bijzonderheden":"Aanvragen vanaf 2 april 2024 tot en met 17 december 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/leader-uitvoering-projecten-noord-holland"
+  },
+  {
+    "subsidie":"LEADER Uitvoering Projecten Overijssel",
+    "soort":"Subsidie voor initiatiefnemers van nieuwe projecten die plaatsvinden in een LEADER-gebied in Overijssel. Projecten dragen bij aan de doelen van de lokale ontwikkelingsstrategie (LOS).",
+    "bijzonderheden":"Aanvragen vanaf 2 april 2024 tot en met 31 december 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/leader-uitvoering-projecten-overijssel"
+  },
+  {
+    "subsidie":"LEADER Uitvoering Projecten Utrecht",
+    "soort":"Subsidie voor initiatiefnemers van nieuwe projecten die plaatsvinden in een LEADER-gebied in Utrecht. Projecten dragen bij aan de doelen van de lokale ontwikkelingsstrategie (LOS).",
+    "bijzonderheden":"Aanvragen vanaf 3 oktober 2024 tot en met 31 december 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/leader-uitvoering-projecten-utrecht"
+  },
+  {
+    "subsidie":"LEADER Uitvoering Projecten Zuid-Holland",
+    "soort":"Subsidie voor initiatiefnemers van nieuwe projecten die plaatsvinden in een LEADER-gebied in Zuid-Holland. Projecten dragen bij aan de doelen van de lokale ontwikkelingsstrategie (LOS).",
+    "bijzonderheden":"Aanvragen vanaf 2 april 2024 tot en met 27 november 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/leader-uitvoering-projecten-zuid-holland"
+  },
+  {
+    "subsidie":"MIA en Vamil voor ondernemers",
+    "soort":"Belastingvoordeel voor ondernemers die investeren in milieuvriendelijke bedrijfsmiddelen en technieken, vermeld op de Milieulijst.",
+    "bijzonderheden":"Indientermijn verschilt per kostensoort.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/mia-vamil\/ondernemers"
+  },
+  {
+    "subsidie":"Missies en Partnerschappen Horizon Europe",
+    "soort":"Europees programma om vanaf 2021 het concurrentievermogen van Europa te vergroten door wetenschap en innovatie te stimuleren.",
+    "bijzonderheden":"Periode van indienen verschilt per call.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/horizon-europe\/missies-en-partnerschappen"
+  },
+  {
+    "subsidie":"Natuurschoonwet 1928 (NSW): Rangschikking aanvragen",
+    "soort":"Belastingvoordeel voor eigenaren, vruchtgebruikers en erfpachters van een landgoed.",
+    "bijzonderheden":"U kunt doorlopend aanvragen.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/nsw\/rangschikking-aanvragen"
+  },
+  {
+    "subsidie":"Niet-productieve investeringen op landbouwbedrijven",
+    "soort":"Subsidie voor landbouwbedrijven in Noord-Holland en Utrecht die met niet-productieve investeringen bijdragen aan de water- en klimaatdoelen.",
+    "bijzonderheden":"Aanvraagperiode verschilt per provincie.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/niet-productieve-investeringen-landbouwbedrijven"
+  },
+  {
+    "subsidie":"Niet-productieve investeringen op niet-landbouwbedrijven",
+    "soort":"Subsidie voor niet-landbouwbedrijven die met niet-productieve investeringen bijdragen aan de water- en klimaatdoelen.",
+    "bijzonderheden":"Aanvraagperiode verschilt per provincie.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/niet-productieve-investeringen-op-niet-landbouwbedrijven"
+  },
+  {
+    "subsidie":"Overmacht GLB-subsidies",
+    "soort":"Agrariërs die door overmacht of uitzonderlijke omstandigheden niet (volledig) voldoen aan de voorwaarden voor de directe betalingen vanuit het Gemeenschappelijk landbouwbeleid (GLB) kunnen een beroep doen op overmacht.",
+    "bijzonderheden":"Meld overmacht zo snel mogelijk.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/overmacht-glb-subsidies"
+  },
+  {
+    "subsidie":"PPS Innovatie",
+    "soort":"Subsidie voor samenwerkingsprojecten van bedrijven en onderzoeksorganisaties die doen aan fundamenteel onderzoek, industrieel onderzoek, experimentele ontwikkeling of een combinatie.",
+    "bijzonderheden":"Aanvragen vanaf 7 november 2025 tot en met 31 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/pps-innovatie"
+  },
+  {
+    "subsidie":"Productieve investeringen groen-blauw en dierenwelzijn",
+    "soort":"Subsidie voor landbouwers in Noord-Holland, Utrecht, Zeeland of Zuid-Holland om hun bedrijf te verduurzamen of het dierenwelzijn te verbeteren.",
+    "bijzonderheden":"Aanvraagperiode verschilt per provincie.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/productieve-investeringen-groen-blauw-en-dierenwelzijn"
+  },
+  {
+    "subsidie":"Regeling Groenprojecten",
+    "soort":"Lening voor ondernemers tegen een lage rente. Met een groenverklaring financiert u uw duurzame project via het groenfonds van uw bank of beleggingsorganisatie.",
+    "bijzonderheden":"U kunt doorlopend aanvragen.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/regeling-groenprojecten"
+  },
+  {
+    "subsidie":"Regeling tegemoetkoming herplaatsing flexwoningen (RTHF)",
+    "soort":"Herplaatsingsgarantie of financiële ondersteuning voor investeerders in nieuwe flexwoningen. Zij verhuren deze als sociale huurwoning of zetten ze tijdelijk in voor de opvang van ontheemden.",
+    "bijzonderheden":"Aanvragen vanaf 1 november 2023 tot en met 31 december 2028.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/rthf"
+  },
+  {
+    "subsidie":"Sanering garnalenvisserij",
+    "soort":"Subsidie voor garnalenvissers die hun vissersvaartuig saneren door sloop.",
+    "bijzonderheden":"Aanvragen vanaf 3 november 2025 tot en met 2 februari 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/sanering-garnalenvisserij"
+  },
+  {
+    "subsidie":"Seed Business Angel regeling",
+    "soort":"Renteloze lening voor investeerders die start-ups tijdens de vroege levensfase willen financieren. De investeerders leggen evenredig hetzelfde bedrag in als de overheid.",
+    "bijzonderheden":"U kunt doorlopend aanvragen.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/seed-business-angel"
+  },
+  {
+    "subsidie":"Stimuleringsregeling Flex- en Transformatiewoningen (SFT)",
+    "soort":"Specifieke uitkering voor gemeenten om flex- en transformatiewoningen mede te financieren.",
+    "bijzonderheden":"Aanvragen vanaf 3 februari 2025 tot en met 31 december 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/sft"
+  },
+  {
+    "subsidie":"Stimuleringsregeling Zorggeschikte Woningen (SZGW)",
+    "soort":"Subsidieregeling voor woningbouwcorporaties en zorginstellingen om zorggeschikte wooneenheden in geclusterde woonvormen mede te financieren.",
+    "bijzonderheden":"Aanvragen vanaf 15 mei 2025 en 28 november 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/szgw"
+  },
+  {
+    "subsidie":"Subsidie SIB Alternatieve markten",
+    "soort":"Subsidie voor mkb-bedrijven die financieel zijn getroffen door de oorlog in Oekraïne of de sancties tegen Rusland en die een vervangende markt zoeken.",
+    "bijzonderheden":"Aanvragen vanaf 7 januari 2025 tot en met 31 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/sib\/alternatieve-markten"
+  },
+  {
+    "subsidie":"Subsidieregeling groepshulpen kinderopvang",
+    "soort":"Subsidie voor een geregistreerd kindercentrum dat een praktijk(leer)plaats voor een groepshulp in de kinderopvang verzorgt met een arbeidscontract van minimaal een jaar. De subsidie is een tegemoetkoming in de loonkosten van de groepshulp.",
+    "bijzonderheden":"Geen bijzonderheden",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/groepshulpen-kinderopvang"
+  },
+  {
+    "subsidie":"Subsidieregeling maritieme innovatieprojecten",
+    "soort":"Subsidie voor ondernemers en kennisinstellingen die producten en diensten ontwikkelen voor de maritieme maakindustrie.",
+    "bijzonderheden":"Aanvragen vanaf 4 november 2025 tot en met 3 februari 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/maritieme-innovatieprojecten"
+  },
+  {
+    "subsidie":"Subsidieregeling praktijkleren in de derde leerweg",
+    "soort":"Subsidie voor erkende leerbedrijven die een praktijk- of werkleerplaats aanbieden aan een persoon die betaalde arbeid verricht of een werkzoekende. De subsidie is een tegemoetkoming in de kosten die een leerbedrijf maakt voor de begeleiding in de derde leerweg van het mbo-onderwijs.",
+    "bijzonderheden":"Aanvragen vanaf 3 tot en met 28 november 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/praktijkleren-derde-leerweg"
+  },
+  {
+    "subsidie":"Subsidieregeling Private Laadinfrastructuur bij bedrijven (SPRILA) Aanschaf",
+    "soort":"Subsidie voor ondernemers en concessiehouders van openbaar vervoer die op eigen of gehuurd terrein laadinfrastructuur willen aanleggen.Aanvragen vanaf 25 maart 2025 tot en met 19 december 2025.",
+    "bijzonderheden":"Geen bijzonderheden",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/laadinfrastructuur\/sprila-aanschaf"
+  },
+  {
+    "subsidie":"Subsidieregeling Private Laadinfrastructuur bij bedrijven (SPRILA) Advies",
+    "soort":"Subsidie voor ondernemers en concessiehouders van openbaar vervoer die advies willen voor het op eigen of gehuurd terrein aanleggen van laadinfrastructuur voor elektrische voertuigen.",
+    "bijzonderheden":"Aanvragen vanaf 25 maart 2025 tot en met 19 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/laadinfrastructuur\/sprila-advies"
+  },
+  {
+    "subsidie":"Subsidieregeling procesondersteuning opschaling renovatieprojecten (SPOR)",
+    "soort":"Subsidie voor samenwerkingsverbanden van woningeigenaren die hun woningen willen verduurzamen. Hiermee kunnen zij een procesondersteuner inhuren die een verduurzamingsplan schrijft.",
+    "bijzonderheden":"Aanvragen vanaf 1 januari 2025 tot en met 31 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/spor"
+  },
+  {
+    "subsidie":"Subsidieregeling Publieke Laadinfrastructuur zwaar vervoer (SPULA)",
+    "soort":"Subsidie voor ondernemers die op een publiek toegankelijke locatie laadinfrastructuur willen aanleggen voor zware elektrische voertuigen.Aanvragen vanaf 13 mei 2025 tot en met 19 december 2025.",
+    "bijzonderheden":"Geen bijzonderheden",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/laadinfrastructuur\/spula"
+  },
+  {
+    "subsidie":"Subsidieregeling Regeneratief Geneeskundige Onderzoeksprojecten (SRGO)",
+    "soort":"Lening en subsidie voor mkb’ers en kennisinstellingen die samenwerken bij het doen van onderzoek voor het ontwikkelen van producten en\/of diensten binnen de regeneratieve geneeskunde.",
+    "bijzonderheden":"Aanvragen vanaf 24 november tot en met 17 februari 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/srgo"
+  },
+  {
+    "subsidie":"Subsidieregeling Verduurzaming en Onderhoud Huurwoningen (SVOH)",
+    "soort":"Subsidie voor particuliere en zakelijke verhuurders en institutionele beleggers die huurwoningen willen verduurzamen door het uitvoeren van energiebesparende en\/of onderhoudsmaatregelen.",
+    "bijzonderheden":"Aanvragen vanaf 1 april 2022 tot en met 31 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/svoh"
+  },
+  {
+    "subsidie":"Subsidieregeling Versterking Omgevingsveiligheid industriële activiteiten (SVO)",
+    "soort":"Subsidie voor samenwerkingsverbanden en brancheorganisaties die de omgevingsveiligheid in Nederland willen helpen versterken.",
+    "bijzonderheden":"Aanvragen vanaf 7 februari 2022 tot en met 1 januari 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/svo"
+  },
+  {
+    "subsidie":"SVOH: Monumentale huurwoningen",
+    "soort":"Subsidie voor verhuurders en institutionele beleggers die met energiebesparende en\/of onderhoudsmaatregelen monumentale huurwoningen willen verduurzamen.",
+    "bijzonderheden":"Aanvragen vanaf 1 april 2022 tot en met 31 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/svoh\/monumentale-huurwoningen"
+  },
+  {
+    "subsidie":"SVVE: subsidie voor oplaadpuntenadvies en basislaadinfrastructuur",
+    "soort":"Subsidie voor VvE's, woonverenigingen en wooncoöperaties met een eigen parkeergelegenheid voor de kosten van een oplaadpuntenadvies en aanleg basislaadinfrastructuur.",
+    "bijzonderheden":"Aanvragen vanaf 1 januari 2024 tot en met 31 december 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/svve\/oplaadpuntenadvies-basislaadinfrastructuur"
+  },
+  {
+    "subsidie":"SVVE: subsidie voor verduurzamingsmaatregelen",
+    "soort":"Subsidie voor VvE's, woonverenigingen en wooncoöperaties voor het verduurzamen van hun gebouwen en het installeren van duurzame warmteopties.",
+    "bijzonderheden":"Aanvragen vanaf 1 januari 2024 tot en met 31 december 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/svve\/verduurzamingsmaatregelen"
+  },
+  {
+    "subsidie":"SVVE: subsidie voor verduurzamingsonderzoek en -advies",
+    "soort":"Subsidie voor VvE's, woonverenigingen en wooncoöperaties die een energieadvies willen laten opstellen. Hiermee kunnen zij bepalen welke energiebesparende isolatiemaatregelen zij het best kunnen laten uitvoeren voor hun gebouw(en).",
+    "bijzonderheden":"Aanvragen vanaf 1 januari 2024 tot en met 31 december 2027.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/svve\/verduurzamingsonderzoek"
+  },
+  {
+    "subsidie":"TSE Industrie studies",
+    "soort":"Subsidie voor ondernemers in de industrie om samen met partners de haalbaarheid te onderzoeken van een innovatief proef- of demonstratieproject. Het project helpt tegen lage kosten de CO2-uitstoot te verkleinen.",
+    "bijzonderheden":"Aanvragen vanaf 1 mei 2025 tot en met 31 maart 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/tse-industrie-studies"
+  },
+  {
+    "subsidie":"TSE Industrie studies: Waterstof en groene chemie (GroenvermogenNL)",
+    "soort":"Subsidie voor ondernemers in de industrie om de haalbaarheid te onderzoeken van een innovatief pilot- of demonstratieproject. Een project dat helpt de CO2-uitstoot in 2030 te verminderen, tegen lage kosten.",
+    "bijzonderheden":"Aanvragen vanaf 1 mei 2025 tot en met 31 maart 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/tse-industrie-studies\/waterstof-en-groene-chemie"
+  },
+  {
+    "subsidie":"Vergroten afzet van biologische landbouwproducten (Vabiola)",
+    "soort":"Subsidie voor samenwerkingsverbanden van biologische bedrijven om de afzet van biologische landbouwproducten te vergroten.",
+    "bijzonderheden":"Aanvragen vanaf 2 februari 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/vabiola"
+  },
+  {
+    "subsidie":"Verhuren opslagpanden mageremelkpoeder of boter",
+    "soort":"Vergoeding voor marktdeelnemers voor het verhuren van een opslagpand voor openbare opslag van mageremelkpoeder of boter. Door in te grijpen in vraag en aanbod ondersteunt de Europese Unie de markt.",
+    "bijzonderheden":"U kunt uw pand het hele jaar door bij ons aanmelden.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/interventieregelingen-opslag\/verhuren-opslagpanden-mageremelkpoeder-boter"
+  },
+  {
+    "subsidie":"Vernieuwingen in de visserij- en aquacultuurketen 2025",
+    "soort":"Subsidie voor partijen uit de visserij- en aquacultuurketen om processen te verbeteren. Bijvoorbeeld in de afzet en verwerking van producten.",
+    "bijzonderheden":"Aanvragen vanaf 20 oktober 2025 tot en met 22 januari 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/vernieuwingen-visserij-aquacultuurketen-2025"
+  },
+  {
+    "subsidie":"Versnelde klimaatinvesteringen industrie (VEKI)",
+    "soort":"Subsidie voor ondernemers in de industrie die minder CO2 willen uitstoten. Het gaat om maatregelen waarvan is bewezen dat ze werken, maar met hoge investeringskosten en waarvan de tijd om het terug te verdienen langer is dan 5 jaar.",
+    "bijzonderheden":"Aanvragen kan vanaf 16 september 2025 tot en met 2 februari 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/veki"
+  },
+  {
+    "subsidie":"Voorgenomen interessepeiling IPCEI Advanced Semiconductor Technologies (AST)",
+    "soort":"Interessepeiling voor ondernemingen die actief zijn in de halfgeleiderindustrie op het gebied van Advanced Semiconductor Technologies (AST).",
+    "bijzonderheden":"Geen bijzonderheden",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/ipcei\/interessepeiling-ipcei-ast"
+  },
+  {
+    "subsidie":"Vroegefasefinanciering (VFF)",
+    "soort":"Krediet voor startende en innovatieve ondernemers om onderzoek te doen naar de commerciële mogelijkheden van een idee of concept.",
+    "bijzonderheden":"Aanvragen vanaf 1 januari 2025 tot en met 31 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/vff"
+  },
+  {
+    "subsidie":"Vroegefasefinanciering (VFF) voor regionale financiers",
+    "soort":"Subsidie voor regionale financiers die met een regionaal fonds leningen verstrekken aan innovatieve starters en mkb'ers.",
+    "bijzonderheden":"Aanvragen vanaf 1 januari 2025 tot en met 31 december 2025.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/vff-regionaal"
+  },
+  {
+    "subsidie":"Warmtenetten Investeringssubsidie (WIS)",
+    "soort":"Investeringssubsidie voor ondernemers die snel (kunnen) starten met de aanleg van een warmtenet om bestaande woningen aardgasvrij te maken.",
+    "bijzonderheden":"Aanvragen vanaf 1 augustus 2025 tot en met 16 januari 2026.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/wis"
+  },
+  {
+    "subsidie":"WBSO: fiscale regeling voor research en development",
+    "soort":"Fiscale innovatieregeling voor bedrijven (incl. starters en zelfstandigen) die ontwikkelings- en\/of onderzoeksprojecten uitvoeren en hun kosten voor Research & Development (R&D) willen verlagen.",
+    "bijzonderheden":"De aanvraagtermijnen verschillen voor zzp'ers en ondernemingen met personeel.",
+    "url":"https:\/\/www.rvo.nl\/subsidies-financiering\/wbso"
+  }
+]
