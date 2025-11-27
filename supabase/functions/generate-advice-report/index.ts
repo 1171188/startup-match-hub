@@ -25,7 +25,9 @@ serve(async (req) => {
       .map(([key, value]) => `${key}: ${value}`)
       .join(', ');
 
-    const systemPrompt = `Je bent een ervaren investerings- en startup adviseur. Genereer een uitgebreid adviesrapport op basis van de gegeven zoekcriteria. Het rapport moet professioneel zijn en de volgende secties bevatten:
+    const systemPrompt = `Je bent een ervaren investerings- en startup adviseur. Genereer een uitgebreid adviesrapport op basis van de gegeven zoekcriteria. 
+
+Het rapport moet professioneel zijn en de volgende secties bevatten:
 
 1. Samenvatting van de zoekcriteria
 2. Marktanalyse voor deze criteria
@@ -33,7 +35,7 @@ serve(async (req) => {
 4. Risico's en kansen
 5. Volgende stappen
 
-Schrijf het rapport in het Nederlands en maak het concreet en actionable.`;
+BELANGRIJK: Schrijf het rapport in het Nederlands en gebruik GEEN markdown opmaak zoals ** of #. Gebruik alleen platte tekst met duidelijke witregels tussen secties. Gebruik hoofdletters voor titels en gebruik gewone tekst voor de rest.`;
 
     const userPrompt = `Genereer een adviesrapport voor een investeerder met de volgende criteria: ${criteriaText}`;
 

@@ -8,47 +8,46 @@ import { useState } from "react";
 import { ContactDetailsDialog } from "@/components/ContactDetailsDialog";
 
 // Mock data - in a real app this would come from an API
-const mockStartupData: Record<string, any> = {
+const mockFundingData: Record<string, any> = {
   "1": {
-    name: "TechVision AI",
-    stage: "Growth",
+    name: "Innovation Capital Partners",
+    stage: "Series A-B",
     sector: "Technology",
     industry: "AI/ML",
-    location: "San Francisco, CA",
-    investment: "$1M - $5M",
-    founded: "2019",
-    website: "techvision-ai.com",
-    email: "invest@techvision-ai.com",
-    phone: "+1 (555) 123-4567",
-    description: "Revolutionary AI platform transforming customer service with natural language processing and automated response systems. Our solution reduces support costs by 60% while improving customer satisfaction scores significantly.",
-    fullDescription: `TechVision AI is at the forefront of artificial intelligence innovation, developing cutting-edge solutions that transform how businesses interact with their customers. Our platform leverages advanced natural language processing and machine learning algorithms to provide automated, yet highly personalized customer service experiences.
+    location: "Amsterdam, NL",
+    investment: "€1M - €5M",
+    founded: "2018",
+    website: "innovation-capital.nl",
+    email: "contact@innovation-capital.nl",
+    phone: "+31 20 123 4567",
+    description: "Gespecialiseerde venture capital firma gericht op AI en machine learning startups in Europa. Actief portfolio management en toegang tot internationaal netwerk.",
+    fullDescription: `Innovation Capital Partners is een toonaangevende venture capital firma gespecialiseerd in AI en machine learning startups in Europa. Met een bewezen track record sinds 2018, investeren wij in innovatieve bedrijven die klaar zijn om te schalen.
 
-Founded in 2019, we've grown from a small team of AI researchers to a thriving company serving Fortune 500 clients across multiple industries. Our technology has processed over 10 million customer interactions, maintaining a 95% satisfaction rate while reducing operational costs by an average of 60%.`,
+Ons team bestaat uit ervaren investeerders en ondernemers die hands-on begeleiding bieden op het gebied van strategie, product development en internationale expansie. We bieden niet alleen kapitaal, maar ook toegang tot ons uitgebreide netwerk van bedrijfsleiders, technische experts en potentiële klanten.`,
     metrics: {
-      employees: "45",
-      growth: "120% YoY",
-      revenue: "$3.2M ARR",
-      customers: "150+ Enterprise",
+      employees: "Portfolio: 25+ bedrijven",
+      growth: "Focus op groeifase",
+      investments: "€50M+ geïnvesteerd",
+      exits: "8 succesvolle exits",
     },
     goals: [
-      "Expand to European markets in Q2 2025",
-      "Launch new multilingual support capabilities",
-      "Grow team to 80 employees by year-end",
-      "Achieve $10M ARR by end of 2025",
+      "Uitbreiding naar Oost-Europese markten in 2025",
+      "Focus op deep tech en AI startups",
+      "Partnership met top universiteiten",
+      "Groei naar €100M+ onder beheer",
     ],
     highlights: [
-      "Featured in TechCrunch and Forbes",
-      "Partnership with Microsoft Azure",
-      "98% customer retention rate",
-      "5 granted patents in AI/ML",
+      "Gemiddeld rendement van 3.2x",
+      "Partnerships met Microsoft en Google",
+      "95% van portfolio companies nog actief",
+      "Actief in 12 Europese landen",
     ],
   },
-  // Add more mock data for other startups...
 };
 
-const StartupDetail = () => {
+const FundingDetail = () => {
   const { id } = useParams();
-  const startup = mockStartupData[id || "1"] || mockStartupData["1"];
+  const funding = mockFundingData[id || "1"] || mockFundingData["1"];
   const [showFullDetails, setShowFullDetails] = useState(false);
   const [contactDialogOpen, setContactDialogOpen] = useState(false);
 
@@ -71,7 +70,7 @@ const StartupDetail = () => {
         <Link to="/results">
           <Button variant="ghost" className="mb-6">
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Results
+            Terug naar resultaten
           </Button>
         </Link>
 
@@ -79,16 +78,16 @@ const StartupDetail = () => {
         <div className="mb-8 animate-fade-in">
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
             <div>
-              <h1 className="text-4xl font-bold text-foreground mb-3">{startup.name}</h1>
+              <h1 className="text-4xl font-bold text-foreground mb-3">{funding.name}</h1>
               <div className="flex items-center text-muted-foreground mb-4">
                 <MapPin className="w-5 h-5 mr-2" />
-                <span>{startup.location}</span>
+                <span>{funding.location}</span>
               </div>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="success">{startup.stage}</Badge>
-                <Badge variant="secondary">{startup.sector}</Badge>
-                <Badge variant="secondary">{startup.industry}</Badge>
-                <Badge variant="accent">{startup.investment}</Badge>
+                <Badge variant="success">{funding.stage}</Badge>
+                <Badge variant="secondary">{funding.sector}</Badge>
+                <Badge variant="secondary">{funding.industry}</Badge>
+                <Badge variant="accent">{funding.investment}</Badge>
               </div>
             </div>
             
@@ -99,7 +98,7 @@ const StartupDetail = () => {
             </div>
           </div>
 
-          <p className="text-lg text-muted-foreground">{startup.description}</p>
+          <p className="text-lg text-muted-foreground">{funding.description}</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -108,17 +107,17 @@ const StartupDetail = () => {
             {/* About */}
             <Card className="animate-scale-in">
               <CardHeader>
-                <CardTitle>Over {startup.name}</CardTitle>
+                <CardTitle>Over {funding.name}</CardTitle>
               </CardHeader>
               <CardContent>
                 {showFullDetails ? (
                   <p className="text-muted-foreground whitespace-pre-line leading-relaxed">
-                    {startup.fullDescription}
+                    {funding.fullDescription}
                   </p>
                 ) : (
                   <div className="space-y-4">
                     <p className="text-muted-foreground">
-                      {startup.description}
+                      {funding.description}
                     </p>
                     <p className="text-sm text-muted-foreground italic">
                       Voor meer informatie, klik op "Kom in contact" om je gegevens te delen.
@@ -140,30 +139,30 @@ const StartupDetail = () => {
                     <div className="p-4 bg-secondary/50 rounded-lg">
                       <div className="flex items-center text-muted-foreground mb-2">
                         <Users className="w-4 h-4 mr-2" />
-                        <span className="text-sm">Team Grootte</span>
+                        <span className="text-sm">Portfolio</span>
                       </div>
-                      <p className="text-2xl font-bold text-foreground">{startup.metrics.employees}</p>
+                      <p className="text-2xl font-bold text-foreground">{funding.metrics.employees}</p>
                     </div>
                     <div className="p-4 bg-secondary/50 rounded-lg">
                       <div className="flex items-center text-muted-foreground mb-2">
                         <TrendingUp className="w-4 h-4 mr-2" />
-                        <span className="text-sm">Groeipercentage</span>
+                        <span className="text-sm">Focus</span>
                       </div>
-                      <p className="text-2xl font-bold text-primary">{startup.metrics.growth}</p>
+                      <p className="text-2xl font-bold text-primary">{funding.metrics.growth}</p>
                     </div>
                     <div className="p-4 bg-secondary/50 rounded-lg">
                       <div className="flex items-center text-muted-foreground mb-2">
                         <DollarSign className="w-4 h-4 mr-2" />
-                        <span className="text-sm">Jaarlijkse Omzet</span>
+                        <span className="text-sm">Investeringen</span>
                       </div>
-                      <p className="text-2xl font-bold text-foreground">{startup.metrics.revenue}</p>
+                      <p className="text-2xl font-bold text-foreground">{funding.metrics.investments}</p>
                     </div>
                     <div className="p-4 bg-secondary/50 rounded-lg">
                       <div className="flex items-center text-muted-foreground mb-2">
                         <Target className="w-4 h-4 mr-2" />
-                        <span className="text-sm">Klanten</span>
+                        <span className="text-sm">Exits</span>
                       </div>
-                      <p className="text-2xl font-bold text-foreground">{startup.metrics.customers}</p>
+                      <p className="text-2xl font-bold text-foreground">{funding.metrics.exits}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -172,11 +171,11 @@ const StartupDetail = () => {
               {/* Growth Objectives */}
               <Card className="animate-scale-in" style={{ animationDelay: "200ms" }}>
                 <CardHeader>
-                  <CardTitle>Groeiplannen & Doelstellingen</CardTitle>
+                  <CardTitle>Strategische Focus</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
-                    {startup.goals.map((goal: string, index: number) => (
+                    {funding.goals.map((goal: string, index: number) => (
                       <li key={index} className="flex items-start">
                         <div className="w-2 h-2 rounded-full bg-primary mt-2 mr-3 flex-shrink-0" />
                         <span className="text-muted-foreground">{goal}</span>
@@ -193,7 +192,7 @@ const StartupDetail = () => {
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
-                    {startup.highlights.map((highlight: string, index: number) => (
+                    {funding.highlights.map((highlight: string, index: number) => (
                       <li key={index} className="flex items-start">
                         <div className="w-2 h-2 rounded-full bg-accent mt-2 mr-3 flex-shrink-0" />
                         <span className="text-muted-foreground">{highlight}</span>
@@ -218,15 +217,15 @@ const StartupDetail = () => {
                   <Calendar className="w-5 h-5 mr-3 mt-0.5 text-muted-foreground flex-shrink-0" />
                   <div>
                     <p className="text-sm text-muted-foreground">Opgericht</p>
-                    <p className="font-medium text-foreground">{startup.founded}</p>
+                    <p className="font-medium text-foreground">{funding.founded}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <Globe className="w-5 h-5 mr-3 mt-0.5 text-muted-foreground flex-shrink-0" />
                   <div>
                     <p className="text-sm text-muted-foreground">Website</p>
-                    <a href={`https://${startup.website}`} className="font-medium text-primary hover:underline">
-                      {startup.website}
+                    <a href={`https://${funding.website}`} className="font-medium text-primary hover:underline">
+                      {funding.website}
                     </a>
                   </div>
                 </div>
@@ -247,4 +246,4 @@ const StartupDetail = () => {
   );
 };
 
-export default StartupDetail;
+export default FundingDetail;

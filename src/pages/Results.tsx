@@ -1,5 +1,5 @@
 import { Navigation } from "@/components/Navigation";
-import { StartupCard } from "@/components/StartupCard";
+import { FundingCard } from "@/components/FundingCard";
 import { AdviceReportPanel } from "@/components/AdviceReportPanel";
 import { useLocation } from "react-router-dom";
 import { Filter } from "lucide-react";
@@ -8,89 +8,89 @@ import { useState } from "react";
 import { ContactDetailsDialog } from "@/components/ContactDetailsDialog";
 
 // Mock data - in a real app this would come from an API
-const mockStartups = [
+const mockFunding = [
   {
     id: "1",
-    name: "TechVision AI",
-    stage: "Growth",
+    name: "Innovation Capital Partners",
+    stage: "Series A-B",
     sector: "Technology",
     industry: "AI/ML",
-    location: "San Francisco, CA",
-    investment: "$1M - $5M",
-    description: "Revolutionary AI platform transforming customer service with natural language processing and automated response systems. Our solution reduces support costs by 60% while improving customer satisfaction.",
+    location: "Amsterdam, NL",
+    investment: "€1M - €5M",
+    description: "Gespecialiseerde venture capital firma gericht op AI en machine learning startups in Europa. Actief portfolio management en toegang tot internationaal netwerk.",
     metrics: {
-      employees: "45 employees",
-      growth: "120% YoY",
+      employees: "Portfolio: 25+ bedrijven",
+      growth: "Focus op groeifase",
     },
   },
   {
     id: "2",
-    name: "HealthFlow",
-    stage: "Startup",
+    name: "Health Innovation Fund",
+    stage: "Seed - Series A",
     sector: "Healthcare",
     industry: "HealthTech",
-    location: "Boston, MA",
-    investment: "$500K - $1M",
-    description: "Digital health platform connecting patients with healthcare providers through seamless telemedicine solutions. HIPAA compliant with 50K+ active users.",
+    location: "Utrecht, NL",
+    investment: "€500K - €1M",
+    description: "Investeringsfonds gespecialiseerd in digitale gezondheidszorg oplossingen. Sterke connecties met Nederlandse ziekenhuizen en zorgverzekeraars.",
     metrics: {
-      employees: "28 employees",
-      growth: "95% YoY",
+      employees: "Portfolio: 15+ bedrijven",
+      growth: "Vroege fase focus",
     },
   },
   {
     id: "3",
-    name: "GreenEnergy Solutions",
-    stage: "Scale-up",
+    name: "Green Energy Ventures",
+    stage: "Series A-C",
     sector: "Energy",
     industry: "CleanTech",
-    location: "Austin, TX",
-    investment: "$5M - $10M",
-    description: "Innovative solar energy storage solutions for residential and commercial applications. Patent-pending technology increases efficiency by 40%.",
+    location: "Rotterdam, NL",
+    investment: "€5M - €10M",
+    description: "Toonaangevend fonds in duurzame energie en cleantech innovaties. Onderdeel van groter Europees netwerk met sterke track record.",
     metrics: {
-      employees: "120 employees",
-      growth: "200% YoY",
+      employees: "Portfolio: 40+ bedrijven",
+      growth: "Scale-up specialist",
     },
   },
   {
     id: "4",
-    name: "EduLearn Pro",
-    stage: "Startup",
+    name: "EdTech Growth Partners",
+    stage: "Seed - Series A",
     sector: "Education",
     industry: "EdTech",
-    location: "New York, NY",
-    investment: "$500K - $1M",
-    description: "Adaptive learning platform using AI to personalize education experiences for K-12 students. Currently serving 200+ schools across 15 states.",
+    location: "Eindhoven, NL",
+    investment: "€500K - €1M",
+    description: "Investeringsmaatschappij gericht op onderwijstechnologie en e-learning platforms. Sterke banden met onderwijsinstellingen.",
     metrics: {
-      employees: "32 employees",
-      growth: "150% YoY",
+      employees: "Portfolio: 20+ bedrijven",
+      growth: "Vroege tot groeifase",
     },
   },
   {
     id: "5",
-    name: "FinSecure",
-    stage: "Growth",
+    name: "FinTech Innovation Fund",
+    stage: "Series A-B",
     sector: "Finance",
     industry: "FinTech",
-    location: "London, UK",
-    investment: "$1M - $5M",
-    description: "Next-generation fraud detection platform for financial institutions. Real-time analysis prevents 99.9% of fraudulent transactions.",
+    location: "Amsterdam, NL",
+    investment: "€1M - €5M",
+    description: "Gespecialiseerd in financiële technologie en betaalinnovaties. Toegang tot bankpartners en financiële infrastructuur.",
     metrics: {
-      employees: "65 employees",
-      growth: "180% YoY",
+      employees: "Portfolio: 30+ bedrijven",
+      growth: "Groeifase focus",
     },
   },
   {
     id: "6",
-    name: "RetailConnect",
-    stage: "MVP",
+    name: "Retail & E-commerce Angels",
+    stage: "Pre-seed - Seed",
     sector: "Retail",
     industry: "E-commerce",
-    location: "Seattle, WA",
-    investment: "$100K - $500K",
-    description: "Omnichannel retail platform helping small businesses compete with major retailers. Unified inventory and sales management.",
+    location: "Den Haag, NL",
+    investment: "€100K - €500K",
+    description: "Angel investeerders netwerk gespecialiseerd in retail innovatie en e-commerce platforms. Hands-on begeleiding voor jonge startups.",
     metrics: {
-      employees: "12 employees",
-      growth: "75% YoY",
+      employees: "Netwerk: 50+ angels",
+      growth: "Vroege fase specialist",
     },
   },
 ];
@@ -106,9 +106,9 @@ const Results = () => {
   const hasCriteria = Object.keys(searchCriteria).filter(key => key !== 'showAdviceReport').length > 0;
   
   // Show general funding options if no criteria
-  const displayedStartups = !hasCriteria 
-    ? mockStartups.slice(0, 3) 
-    : showAll ? mockStartups : mockStartups.slice(0, 3);
+  const displayedFunding = !hasCriteria 
+    ? mockFunding.slice(0, 3) 
+    : showAll ? mockFunding : mockFunding.slice(0, 3);
 
   const handleShowMore = () => {
     setContactDialogOpen(true);
@@ -128,18 +128,18 @@ const Results = () => {
         {/* Header */}
         <div className="mb-8 animate-fade-in">
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            {hasCriteria ? "Startup Matches" : "Algemene Financieringsmogelijkheden"}
+            {hasCriteria ? "Financierings Matches" : "Algemene Financieringsmogelijkheden"}
           </h1>
           <div className="flex flex-wrap gap-4 items-center justify-between">
             <p className="text-muted-foreground">
               {hasCriteria 
-                ? `Found ${mockStartups.length} startups matching your criteria`
+                ? `${mockFunding.length} financieringsmogelijkheden gevonden die passen bij jouw criteria`
                 : "Vul je criteria in om gepersonaliseerde matches te zien"}
             </p>
             <Button variant="outline" size="sm" asChild>
               <a href="/">
                 <Filter className="w-4 h-4 mr-2" />
-                {hasCriteria ? "Refine Search" : "Vul Criteria In"}
+                {hasCriteria ? "Verfijn Zoekopdracht" : "Vul Criteria In"}
               </a>
             </Button>
           </div>
@@ -148,7 +148,7 @@ const Results = () => {
         {/* Search Criteria Summary */}
         {hasCriteria && Object.keys(searchCriteria).filter(key => key !== 'showAdviceReport').length > 0 && (
           <div className="mb-8 p-4 bg-secondary/50 rounded-lg animate-fade-in">
-            <h3 className="text-sm font-semibold text-foreground mb-2">Your Search Criteria:</h3>
+            <h3 className="text-sm font-semibold text-foreground mb-2">Jouw Zoekcriteria:</h3>
             <div className="flex flex-wrap gap-2">
               {searchCriteria.stage && (
                 <span className="text-sm px-3 py-1 bg-primary/10 text-primary rounded-full">
@@ -176,16 +176,16 @@ const Results = () => {
 
         {/* Results Layout - 2 Column: Startups Left, Advice Right */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Left Column - Startup Cards */}
+          {/* Left Column - Funding Cards */}
           <div className="lg:col-span-2">
             <div className="space-y-6">
-              {displayedStartups.map((startup, index) => (
-                <StartupCard key={index} {...startup} />
+              {displayedFunding.map((funding, index) => (
+                <FundingCard key={index} {...funding} />
               ))}
-              {!showAll && mockStartups.length > 3 && (
+              {!showAll && mockFunding.length > 3 && (
                 <div className="flex justify-center pt-4">
                   <Button onClick={handleShowMore} variant="accent" size="lg">
-                    Laat meer zien ({mockStartups.length - 3} meer)
+                    Laat meer zien ({mockFunding.length - 3} meer)
                   </Button>
                 </div>
               )}
